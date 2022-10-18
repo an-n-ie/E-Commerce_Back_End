@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
   .catch(err=>{
     console.log(err)
   })
-})
+});
 
 
 
@@ -27,7 +27,7 @@ router.get('/:id', (req, res) => {
   .catch(err=>{
     console.log(err)
   })
-})
+});
 
 router.post('/', (req, res) => {
   // create a new category
@@ -38,7 +38,7 @@ router.post('/', (req, res) => {
   .catch(err=>{
     console.log(err)
   })
-})
+});
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
@@ -49,7 +49,7 @@ router.put('/:id', (req, res) => {
   .catch(err=>{
     console.log(err)
   })
-})
+});
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
@@ -60,6 +60,6 @@ router.delete('/:id', (req, res) => {
   .catch(err=>{
     console.log(err)
   })
-})
+});
 
 module.exports = router;
