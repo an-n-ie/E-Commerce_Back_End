@@ -6,6 +6,8 @@ The back end for an e-commerce site. Express.js API will be configured to use Se
 
 ## Usage
 
+Video: https://drive.google.com/file/d/1WkgDGIJsWaoMXh0X3WC8Avxejqdg8aJF/view
+
 The following image shows the application's appearance and functionality:
 
 ![insomnia](./Assets/13-orm-homework-demo-02.gif)
